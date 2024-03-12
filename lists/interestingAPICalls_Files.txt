@@ -1,0 +1,8 @@
+DeleteFile
+GetFileType
+MoveFile
+GetFileAttributes
+CopyFile
+FindFirstFileEx
+GetFileSize
+ReadFile

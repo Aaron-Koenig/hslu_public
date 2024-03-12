@@ -1,0 +1,7 @@
+IsDebuggerPresent
+GetSystemInfo
+GlobalMemoryStatusEx
+GetVersion
+CreateToolhelp32Snapshot
+CreateFileW
+CreateFileA

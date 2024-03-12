@@ -1,0 +1,8 @@
+CreateProcess
+GetCurrentProcess
+GetCurrentProessId
+CreateThread
+SetThreadPriority
+GetThreadPriority
+GetProcessTimes
+ExitProcess

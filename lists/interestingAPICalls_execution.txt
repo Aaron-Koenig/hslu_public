@@ -1,0 +1,6 @@
+CreateProcessA
+CreateProcessW
+ShellExecute
+WinExec
+ResumeThread
+NtResumeThread

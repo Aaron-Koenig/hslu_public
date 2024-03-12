@@ -1,0 +1,9 @@
+WinCrypt
+CryptAcquireContext
+CryptGenKey
+CryptDeriveKey
+CryptDecrypt
+CryptReleaseContext
+CryptEncrypt
+CryptCreateHash
+CryptHashData

@@ -1,0 +1,7 @@
+GetFileVersionInfo
+GetFileVersionInfoSize
+GetSystemMetrics
+GetSystemInfo
+GetNativeSystemInfo
+IsDebuggerPresent
+QueryPerformanceCounter

@@ -1,0 +1,13 @@
+RegCreateKeyEx
+RegOpenKeyEx
+RegDeleteKeyEx
+RegGetValue
+GetTempPath
+CopyFile
+CreateFile
+WriteFile
+ReadFile
+OpenSCManager
+CreateService
+StartServiceCtrlDispatcher
+
