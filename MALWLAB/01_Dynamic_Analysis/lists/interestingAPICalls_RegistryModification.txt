@@ -1,7 +1,0 @@
-RegSetValueEx
-RegCreateKeyEx
-RegEnumKeyEx
-RegQueryValueEx
-RegOpenKeyEx
-RegCloseKey
-RegEnumValue

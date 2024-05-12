@@ -1,7 +1,0 @@
-CreateProcess
-ZwUnmapViewOfSection
-NtUnmapViewOfSection
-VirtualAllocEc
-WriteProcessMemory
-SetThreadContext
-ResumeThread
